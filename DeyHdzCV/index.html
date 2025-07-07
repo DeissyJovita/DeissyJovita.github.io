@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <!-- Metadatos -->
     <meta charset="utf-8">
@@ -21,8 +21,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+
+
+
+
   </head>
+
   <body>
+
     <!-- Barra de navegacion -->
     <nav class="navbar navbar-expand-md navbar-light">
       <div class="container-fluid">
@@ -35,16 +45,25 @@
           </a>
           <ul class="navbar-nav d-flex justify-content-center align-items-center">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#proyectos">Proyectos</a>
+              <a href="#qualification" class="nav-item nav-link">Experience</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#testimonios">Referencias</a>
+              <a href="#skill" class="nav-item nav-link">Skill</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contacto">Contacto</a>
+              <a class="nav-link" href="#proyectos">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#blog" class="nav-item nav-link">Certificates</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">References</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contact</a>
             </li>
           </ul>
         </div>
@@ -54,9 +73,18 @@
     <!-- Seccion Hero -->
     <section class="hero align-items-stretch">
       <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
-        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/DeissyHdz.jpg" alt="Foto de Deissy">
-        <h1>Hola, soy Deissy Hernández</h1>
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/dey.jpg" alt="Foto de Deissy">
+        <h1>Hello, I'm Deissy Hernández</h1>        
+
         <!--<h2>Soy estudainte de Ingenieria en Compuatción.</h2>-->
+
+                <h2 class="text-primary mb-4" id="typewriter"></h2>
+        <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-3 gap-3">
+          <a href="https://drive.google.com/file/d/1v8aLiEZFmxiDJ7KNw5_0t_ZlX6x3h2Q7/view?usp=sharing"
+            class="iphone-btn d-none d-lg-block"
+            target="_blank">
+            <i class="fas fa-download"></i>Download CV
+          </a>
 
         <!--Animación con JavaScript-->
         <h2 class="text-primary mb-4" id="typewriter"></h2>
@@ -66,85 +94,169 @@
       </div>
     </section>
 
-    <!-- Sobre mi -->
-    <section id="sobre-mi" class="sobre-mi seccion-oscura">
-      <div class="contenedor">
-        <h2 class="seccion-titulo">Conoce a Deissy Hernández</h2>
-        <p class="seccion-texto"> Soy estudiante de Ingeniería en Computación en la Facultad de Ingeniería de la Universidad Nacional Autónoma de México, con una pasión por la tecnología, la Ingeniería de Software y el Desarrollo Web. He adquirido habilidades técnicas en desarrollo Frontend y Backend para el desarrollo de sitios y aplicaciones web, ademas de conocimientos en lenguajes como Phyton, Java y C. Me considero una persona proactiva, organizada, autodiadacta, responsable y capaz de resolver cualquier problema de manera creativa.  
-</p>
-      </div>
-    </section>
 
+
+
+        <!-- About Start -->
+    <div class="container-fluid py-5" id="sobre-mi">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #fcdbf6;">About</h1>
+                <h1 class="position-absolute text-uppercase text-white" style="-webkit-text-stroke: 1px #9e618d;">About Me</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 pb-4 pb-lg-0">
+                    <img class="img-fluid rounded w-100" src="imagenes/gfldey.jpg" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <h3 class="mb-4">Computer Engineering Student</h3>
+                    <p>I am a Computer Engineering student at the Faculty of Engineering of the National Autonomous University of Mexico, with a passion for technology, software engineering, and web development. I have acquired technical skills in front-end and back-end development for the development of websites and web applications, in addition to knowledge in languages ​​such as Python, Java, and C. I consider myself proactive, organized, self-taught, responsible, and capable of creative problem-solving.</p>
+                    <div class="row mb-3">
+                        <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Deissy Jovita Hernandez Hernandez</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">1 June</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">Engineering Student</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Experience: <span class="text-secondary">10 Years</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">+52 5512738562</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">deissyjovit@gmail.com</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">Mexico City</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Freelance: <span class="text-secondary">Available</span></h6></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+
+    <!-- Educacion -->
+    <div class="container-fluid py-5" id="qualification">
+ 
     <!-- Experiencia -->
     <section class="experiencia seccion-clara">
       <div class="container text-center">
         <div class="row">
-          <!-- Mis Estudios -->
-          <div class="columna col-12 col-md-4">
-            <i class="bi bi-laptop"></i>
-            <p class="experiencia-titulo">Mis Estudios</p>
-            <p>  <!--Lista desordenada-->
-              <ul>
-                <li>2022-Actual | Ingeniería en Computación, Facultad de Ingenieria, UNAM.</li>
-                <br>
-                <li>Marzo-Mayo 2023 | TecnolochicasPro.</li>
-                <p>Paricipe en un Bootcampt de programacion en Tecnologias Frontend y Backend impulsado por Microsoft y Fundación Televisa.</p>
-              </ul>
-            </p>
-              
-            <div class="badges-contenedor">
-              <span class="badge text-bg-primary">UNAM</span>
-              <span class="badge text-bg-primary">Ingeniería</span>
-              <span class="badge text-bg-primary">Aprendizaje</span>
+          <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #fcdbf6;">Education and Experience</h1>
+                <h1 class="position-absolute text-uppercase text-white" style="-webkit-text-stroke: 1px #9e618d;">Education & Expericence</h1>
             </div>
+          <!-- Mis Estudios -->
+          <div class="columna col-12 col-md-6">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Education</p>
+                            <p class="mb-2"><strong>Faculty of Engineering, UNAM</strong> | <small>2022 - Present</small></p>
+                            <p>I am currently pursuing a degree in Computer Engineering at the Faculty of Engineering, UNAM, where I have developed strong technical skills in software development, computer networks, and data management.</p>
+ 
+                            <p class="mb-2"><strong>Women CISO</strong> | <small>August2025 - Present</small></p>
+                            <p>Selected to study Cybersecurity and Artificial Intelligence through a specialized program supported by Google Mexico and ITAM. This initiative is led by Women CISO, a community of women leaders in cybersecurity and technology who come together to empower, connect, and share knowledge and experiences in the cybersecurity field.</p>
+                            <p class="mb-2"><strong>CCNA, CISCO</strong> | <small>January 2025 - March 2025</small></p>
+                            <p>Completed the Cisco course Network Associate (CCNA) certification through the Faculty of Engineering at UNAM. This course was integrated into the Data Networks subject and provided comprehensive training on network design, secure configuration, and troubleshooting.</p>
+              
           </div>
 
           <!-- Mis Hobbies -->
-          <div class="columna col-12 col-md-4">
+          <div class="columna col-15 col-md-6">
             <i class="bi bi-laptop"></i>
-            <p class="experiencia-titulo"> Mis Hobbies</p>
-              <ul>
-                <li>Me gusta hacer ejercicio</li>
-                <li>Salir a correr</li>
-                <li>Escuchar música</li>
-                <li>Visitar Museos y espacios culturales</li>
-                <li>Tomar cursos sobre medicina e Ingeniería</li>
-              </ul>
+            <p class="experiencia-titulo"> Expericence</p>
+                            <p class="mb-2"><strong>Haber Holding</strong> | <small>June 2024 - Dec 2024</small></p>
+                            <p>Internship experience where I managed product registration and database updates, and contributed to web design tasks for the company’s platforms.</p>
+                            
+                            <p class="mb-2"><strong>Electrical Engineering Division</strong> | <small>Agust 2025 - Present</small></p>
+                            <p>Currently fulfilling my social service at the Electrical Engineering Division, where I am responsible for updating internal databases, registering and deregistering IT systems, and performing both preventive and corrective maintenance on computer equipment.</p>
+                            
+                            <p class="mb-2"><strong>High Academic Performance Program</strong> | <small>2022 - Present</small></p>
+                            <p>As part of this academic distinction program, I assist in teaching support activities, offering tutoring and guidance in various subjects within the Computer Engineering curriculum.</p>
+                            
 
-            <div class="badges-contenedor">
-              <span class="badge text-bg-primary">Estudio</span>
-              <span class="badge text-bg-primary">Diversión</span>
-              <span class="badge text-bg-primary">Ejercicio</span>
-            </div>
-          </div>
 
-          <!-- Mis Habilidades -->
-          <div class="columna col-12 col-md-4">
-            <i class="bi bi-laptop"></i>
-            <p class="experiencia-titulo">Mis Habilidades</p>
-              <ul>
-                <li>Trabajo en Equipo.</li>
-                <li>Liderazgo.</li>
-                <li>Creatividad.</li>
-                <li>Adaptabilidad</li>
-                <li>Resolución de problemas.</li>
-                <li>Administración del tiempo.</li>
-              </ul>
-
-            <div class="badges-contenedor">
-              <span class="badge text-bg-primary">Aprendizaje</span>
-              <span class="badge text-bg-primary">Desarrollo Web</span>
-              <span class="badge text-bg-primary">Python</span>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
+
+<!-- Skill Start -->
+    <div class="container-fluid py-5" id="skill">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #fcdbf6;">Skills</h1>
+                <h1 class="position-absolute text-uppercase text-white" style="-webkit-text-stroke: 1px #9e618d;" >My Skills</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">HTML</h6>
+                            <h6 class="font-weight-bold">95%</h6>
+                        </div>
+
+                    <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-info" style="width: 95%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">CSS</h6>
+                            <h6 class="font-weight-bold">85%</h6>
+                        </div>
+
+                        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-info" style="width: 85%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Python</h6>
+                            <h6 class="font-weight-bold">65%</h6>
+                        </div>
+                          <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-info" style="width: 65%"></div>
+                        </div>
+                    </div>
+
+                </div>
+                    <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Javascript</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-info" style="width: 90%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Swift</h6>
+                            <h6 class="font-weight-bold">50%</h6>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-info" style="width: 50%"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">C</h6>
+                            <h6 class="font-weight-bold">85%</h6>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-info" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Skill End -->
+
 
     <!-- Proyectos -->
     <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
-      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
-      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Projects</h1>
+                <h1 class="position-absolute text-uppercase text-white" style="-webkit-text-stroke: 1px #9e618d;" >My Projects</h1>
+            </div>
+      <h3 class="seccion-descripcion">These are some projects I've created recently...</h3>
+
       <!-- Galeria de Proyectos -->
       <div class="container text-center proyectos-contenedor">
         <div class="row">
@@ -153,7 +265,7 @@
             <div class="proyecto">
               <img src="imagenes/clonaciongoogle.jpg" alt="Proyecto 1 Clonacion Interfaz">
               <div class="overlay">
-                <p>Clon de Inrefaz Google</p>
+                <p>Google Interface Clone</p>
                 <div class="iconos-contenedor">
                   <a href="https://github.com/DeyHdz/cloninterfazdegoogle" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-github"></i>
@@ -170,12 +282,12 @@
             <div class="proyecto">
               <img src="imagenes/proyecto2.png" alt="Proyecto 2">
               <div class="overlay">
-                <p>Proyecto 2</p>
+                <p>Starbucks Web Replica</p>
                 <div class="iconos-contenedor">
-                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/DeyHdz/clonacionStarbucks" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-github"></i>
                   </a>
-                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://deissyjovita.github.io/starbuks/" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-laptop"></i>
                   </a>
                 </div>
@@ -254,59 +366,73 @@
       </div>
       <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
         <button type="button" class="btn btn-info">
-          Ver más proyectos
+          See more projects
           <i class="bi bi-arrow-right-circle-fill"></i>
         </button>
       </a>
     </section>
 
-    <!-- Experiencia -->
-    <section class="articulos justify-content-start">
-      <h2 class="seccion-titulo texto-negro">Experiencia</h2>
-      <div class="card">
-        <div class="card-header">
-          Más recientes
+
+
+<!-- Blog Start -->
+<div class="container-fluid pt-5" id="blog">
+    <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #fcdbf6;">Certificates</h1>
+            <h1 class="position-absolute text-uppercase text-white" style="-webkit-text-stroke: 1px #9e618d;" >Certificates</h1>
         </div>
-        <ul class="list-group list-group-flush">
-          <a href="#" target="_blank" rel="noopener noreferrer">
-            <li class="list-group-item">
-              Pertenezco al Programa de Alto Rendimiento Académico de la FI.
-            </li>
-          </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
-            <li class="list-group-item">
-              He tomado cursos sobre programacion en diversas plataformas.
-            </li>
-          </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
-            <li class="list-group-item">
-              Doy asesorias a estuadiantede de la FI en las materias de Ecuaciones Diferenciales y Probabilidad.
-            </li>
-          </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
-            <li class="list-group-item">
-              Participo en cursos intersemestrales.
-            </li>
-          </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
-            <li class="list-group-item">
-              Asisto a conferencias dadas por la Facultad. 
-            </li>
-          </a>
-        </ul>
-      </div>
-      <a href="#" target="_blank" rel="noopener noreferrer">
-        <button type="button" class="btn btn-info">
-          Ver más artículos
-          <i class="bi bi-arrow-right-circle-fill"></i>
-        </button>
-      </a>
-    </section>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-lg-4 mb-5">
+                <div class="position-relative mb-4">
+                    <img class="img-fluid rounded mx-auto d-block" style="width: 5cm; height: 5cm; object-fit: cover;" src="imagenes/ieeextreme18.jpg" alt="">
+                    <div class="blog-date mt-2">
+                        <h6 class="font-weight-bold mb-1 text-center">IEEExtreme 18.0</h6>
+                    </div>
+                </div>
+                <p class="small text-justify">I participated in the IEEExtreme 18.0 global programming competition, a 24-hour challenge organized by the IEEE, where I solved algorithmic problems in teams under pressure. This experience strengthened my skills in logic, collaboration, and critical thinking.</p>
+                <div class="text-center">
+                    <a class="btn btn-outline-primary rounded-pill px-4 py-2" href="https://drive.google.com/file/d/1xVkgI41V6qJ48EbDIuU55axn3HW5_hhr/view?usp=sharing" target="_blank">Read More</a>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-lg-4 mb-5">
+                <div class="position-relative mb-4">
+                    <img class="img-fluid rounded mx-auto d-block" style="width: 5cm; height: 5cm; object-fit: cover;" src="imagenes/tecnolochicas.jpg" alt="">
+                    <div class="blog-date mt-2">
+                        <h6 class="font-weight-bold mb-1 text-center">Web Development Course - Tecnolochicas PRO</h6>
+                    </div>
+                </div>
+                <p class="small text-justify">I completed the intensive Web Development course with Tecnolochicas PRO, where I learned to build responsive websites using HTML, CSS, JavaScript, and GitHub Pages. During the course, I developed practical projects that reinforced my knowledge of web design, good coding practices, and online collaboration.</p>
+                <div class="text-center">
+                    <a class="btn btn-outline-primary rounded-pill px-4 py-2" href="https://drive.google.com/file/d/1H74LBHhTuLPBJh4uiq_NydTIqK_up9Jd/view?usp=sharing" target="_blank">Read More</a>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-lg-4 mb-5">
+                <div class="position-relative mb-4">
+                    <img class="img-fluid rounded mx-auto d-block" style="width: 5cm; height: 5cm; object-fit: cover;" src="imagenes/chidas.jpg" alt="">
+                    <div class="blog-date mt-2">
+                        <h6 class="font-weight-bold mb-1 text-center">Basic Git and GitHub Course - ChidasTech</h6>
+                    </div>
+                </div>
+                <p class="small text-justify">I took the Git and GitHub Basics course with ChidasTech, where you'll acquire essential skills for version control, working with branches, collaborating on projects, and publishing static sites. Learn how to use the terminal, GitHub Desktop, and key commands to keep repositories organized.</p>
+                <div class="text-center">
+                    <a class="btn btn-outline-primary rounded-pill px-4 py-2" href="https://drive.google.com/file/d/1s3NKMZr2eqmg4hA0Jy3j4c8dF-GY1Mnm/view?usp=sharing" target="_blank">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Blog End -->
+
 
     <!-- Testimonios -->
     <section id="testimonios" class="testimonios seccion-clara">
-      <h2 class="seccion-titulo">Referencias</h2>
-      <h3 class="seccion-descripcion">Algunas Referencias de mis maestros y amigos...</h3>
+      <h2 class="seccion-titulo">References</h2>
+      <h3 class="seccion-descripcion">Some References from my teachers and friends...</h3>
       
       <!-- Carrusel -->
       <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
@@ -314,27 +440,27 @@
           <div class="carousel-item active">
             <div class="container">
               <img class="testimonio-imagen rounded-circle" src="imagenes/NancySalazar.jpg" alt="Foto de Nancy">
-              <p class="testimonio-texto">Deissy ha desarrollado de manera eficiente sus habilidades en programación front-end, demostró ser una gran estudiante y bastante colaborativa con sus compañeras.</p>
+              <p class="testimonio-texto">Deissy has efficiently developed her front-end programming skills, proving to be a great student and quite collaborative with her classmates.</p>
               <div class="testimonio-info">
                 <p class="cliente">Nancy Salazar</p>
-                <p class="cargo">Instructora Front-End en Tecnolochicas PRO.</p>
+                <p class="cargo">Front-End Instructor at Tecnolochicas PRO.</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <div class="container">
               <img class="testimonio-imagen rounded-circle" src="imagenes/AnaVillanueva.jpg" alt="Foto de Ana">
-              <p class="testimonio-texto">Deissy es una persona excepcional, siempre cumple en tiempo y forma cada una de sus actividades, con un gran ímpetu por seguir aprendiendo y ayudando a sus compañeros de trabajo.</p>
+              <p class="testimonio-texto">Deissy is an exceptional person; she always completes each of her tasks on time and in the correct manner, with a great drive to continue learning and helping her coworkers.</p>
               <div class="testimonio-info">
                 <p class="cliente">Ana Gutierrez Villanueva</p>
-                <p class="cargo">Ingenieria en Computación Fes Aragón y Asesora de Tecnolochicas PRO</p>
+                <p class="cargo">Computer Engineer from Fes Aragón and Advisor to Tecnolochicas PRO</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <div class="container">
               <img class="testimonio-imagen rounded-circle" src="imagenes/MaevaCortes.jpg" alt="Foto de Maeva">
-              <p class="testimonio-texto">Deissy tiene las habilidades y bases suficientes para poder desarrollar sitios web funcionales, muy comprometida con sus trabajos.</p>
+              <p class="testimonio-texto">Deissy has the skills and foundation to develop functional websites and is very committed to her work.</p>
               <div class="testimonio-info">
                 <p class="cliente">Nina Maeva Mazadiego</p>
                 <p class="cargo">Microsoft Learn Student Ambassor</p>
@@ -359,15 +485,15 @@
         <div class="container text-center rectangulo d-flex justify-content-evenly">
           <div class="row">
             <div class="col-12 col-md-4 seccion-titulo">
-              ¡Hablemos!
+              ¡Let's talk!
             </div>
             <div class="col-12 col-md-4 descripcion">
-              Contáctame para iniciar tu proyecto, haré que tu visión se vuelva realidad.
+              Contact me if you want to work with me.
             </div>
             <div class="col-12 col-md-4">
               <a href="mailto:deissyjovit@gmail.com">
                 <button type="button">  
-                  Contacto
+                  Contact
                   <i class="bi bi-envelope-check-fill"></i>
                 </button>
               </a>
@@ -380,9 +506,9 @@
     <!-- Pie de pagina (footer) -->
     <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
       <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
-      <p class="footer-texto text-center"> "El arte desafía a la tecnología y la tecnología inspira al arte". John Lasseter.<br>Creemos un proyecto juntos.</p>
+      <p class="footer-texto text-center"> "Art challenges technology and technology inspires art". John Lasseter.<br>Let's create a project together..</p>
       <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a href="mailto:deissyjovit@gmail.com" target="_blank" rel="noopener noreferrer">
           <i class="bi bi-twitter"></i>
         </a>
         <a href="https://github.com/DeyHdz" target="_blank" rel="noopener noreferrer">
@@ -398,7 +524,7 @@
           <i class="bi bi-envelope"></i>
         </a>
       </div>
-      <div class="derechos-de-autor">Creado por Deissy Jovita Hernández (2023) &#169;</div>
+      <div class="derechos-de-autor">Created by Deissy Jovita Hernández (2025) &#169;</div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>

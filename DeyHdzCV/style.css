@@ -2,7 +2,7 @@
 
 .navbar {
   padding: 2rem;
-  background-color: #dee4f1;
+  background-color: #f4a4bf;
 }
 
 .navbar-collapse {
@@ -11,6 +11,23 @@
 }
 
 /* Estilos generales */
+
+.iphone-btn {
+  border: 2px solid #a04b78; /* azul Bootstrap */
+  color: #a04b78;
+  background-color: transparent;
+  padding: 10px 24px;
+  border-radius: 999px; /* estilo iPhone */
+  font-weight: 500;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.iphone-btn:hover {
+  background-color: #a04b78;
+  color: white;
+}
+
 
 section {
   display: flex;
@@ -26,11 +43,11 @@ h1 {
 /* Conoce a DEY */
 .seccion-oscura {
   color: rgba(255, 255, 255, 0.959);
-  background-color: #91aeda;
+  background-color: #f4a4bf;
 }
 /* Desarrollo Web, Articulos, Estudios */
 .seccion-clara {
-  color: #29405d;
+  color: #9c2d52;
   background-color: rgb(255, 255, 255);
 }
 
@@ -43,7 +60,7 @@ h1 {
 /* Algunos proyectos y Algunas referencias*/
 .seccion-descripcion {
   font-size: 1.2rem;
-  color: #0a2d5c;
+  color: #953a59;
 }
 
 .seccion-texto {
@@ -56,7 +73,7 @@ h1 {
 }
 /* proyectos mas recientes y Experiencia*/
 .texto-negro {
-  color: #3e9af9;
+  color: #d98cc1;
 }
 
 .texto-blanco {
@@ -69,7 +86,7 @@ h1 {
   background-color: #ffffff;
   min-height: 450px;
   text-align: center;
-  color: #3e9af9;
+  color: #b5398e;
 }
 
 .hero-principal {
@@ -107,7 +124,7 @@ h1 {
 /* Experiencia Contorno */
 .experiencia .columna {
   padding: 20px;
-  border: 2px solid #2917ca4d;
+  border: 2px solid #621549;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -117,18 +134,19 @@ h1 {
 /* Color al pasar la flecha */
 .experiencia .columna:hover {
   color: rgb(255, 255, 255);
-  background-color: #7dbdc3;
+  background-color: #9b5f8a;
 }
 /* Color figura iconos */
 .experiencia i {
   font-size: 2.5rem;
-  color: #5b8eda;
-  background-color: #090e41;
+  color: #65345e;
+  background-color: #d88dc1;
   padding: 8px 19px;
   border-radius: 50%;
 }
 
 .experiencia-titulo {
+  color: #5c0f54;
   font-size: 25px;
   font-weight: bold;
   margin: 10px 0;
@@ -142,12 +160,14 @@ h1 {
 
 .badge {
   margin: 5px;
+    color: #5c0f54;
 }
 
 /* Proyectos */
 
 .proyectos-recientes {
   padding: 40px;
+  color: #5c0f54;
 }
 
 .proyectos-recientes img {
@@ -162,6 +182,7 @@ h1 {
 .proyectos-contenedor {
   padding-top: 60px;
   margin-bottom: 40px;
+  color: #5c0f54;
 }
 
 .overlay {
@@ -178,14 +199,17 @@ h1 {
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 0;
+  color: #5c0f54;
 }
 
 .proyecto {
   position: relative;
+  color: #5c0f54;
 }
 
 .proyecto:hover img {
   opacity: 0.2;
+  color: #5c0f54;
 }
 
 .proyecto:hover .overlay {
@@ -197,7 +221,7 @@ h1 {
 }
 
 .overlay i {
-  color: #1c41a6;
+  color: #5c0f54;
   font-size: 60px;
   margin: 10px;
 }
@@ -205,6 +229,7 @@ h1 {
 /* Hobbies */
 
 .articulos {
+    color: #5c0f54;
   min-height: 500px;
   padding: 30px;
 }
@@ -270,7 +295,7 @@ h1 {
 /* Puestos de las personas */
 .testimonio-info .cargo {
   font-size: 0.9rem;
-  color: #0a418d;
+  color: #510738;
 }
 
 /* Contacto */
@@ -283,7 +308,7 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: #98a7c5;
+  background-color: #a96288;
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
@@ -311,8 +336,8 @@ h1 {
 }
 
 .contacto button:hover {
-  background-color: white;
-  color: rgb(4, 21, 117);
+  background-color: rgb(145, 24, 103);
+  color: rgb(255, 255, 255);
 }
 
 .contacto button i {
@@ -365,11 +390,11 @@ footer {
 
 .iconos-redes-sociales a:hover {
   background-color: white;
-  border: 2px solid rgb(40, 63, 216);
+  border: 2px solid #893d66;
 }
 
 .iconos-redes-sociales a:hover i {
-  color: #1c41a6;
+  color: #763156;
 }
 
 .derechos-de-autor {
@@ -378,6 +403,10 @@ footer {
   padding: 20px;
 }
 
+#typewriter {
+  color: #9c2d52;
+}
+ 
 /* Adaptable (Responsivo) */
 
 @media screen and (max-width: 400px) {
@@ -412,3 +441,4 @@ footer {
     max-width: 600px;
   }
 }
+
